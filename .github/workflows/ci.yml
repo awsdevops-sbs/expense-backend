@@ -1,0 +1,23 @@
+name: Simple Example
+
+on: [push]
+
+jobs:
+  Job1:
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code checkout
+        uses: actions/checkout@v4
+
+      - name: Code Build
+        run: echo "Code Build"
+
+      - name: Code Test
+        run: echo "Code Test"
+
+      - name: Code Realse
+        run: echo "Code Realse"
+
+
+
