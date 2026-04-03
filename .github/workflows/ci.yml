@@ -3,7 +3,7 @@ name: Simple Example
 on: [push]
 
 jobs:
-  Job1:
+  CI_Steps:
 
     runs-on: ubuntu-latest
     steps:
@@ -11,13 +11,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Code Build
-        run: echo "Code Build"
+        run: echo "Ok"
 
       - name: Code Test
-        run: echo "Code Test"
+        run: echo "Ok"
 
-      - name: Code Realse
-        run: echo "Code Realse"
+      - name: Code Review
+        run: echo "Ok"
 
-
-
+      - name: Relea se software
+        run: echo "Ok"
