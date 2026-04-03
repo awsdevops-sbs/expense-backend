@@ -1,5 +1,7 @@
 name: Continous integration
 on: [push]
 
-On_workflow_call:
-  uses: github.com/awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
+jobs:
+  On_workflow_call:
+    uses: awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
+
