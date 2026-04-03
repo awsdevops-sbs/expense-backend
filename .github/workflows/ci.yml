@@ -1,23 +1,5 @@
-name: Simple Example
-
+name: Continous integration
 on: [push]
 
-jobs:
-  CI_Steps:
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Code checkout
-        uses: actions/checkout@v4
-
-      - name: Code Build
-        run: echo "Ok"
-
-      - name: Code Test
-        run: echo "Ok"
-
-      - name: Code Review
-        run: echo "Ok"
-
-      - name: Release software
-        run: echo "Ok"
+On_workflow_call:
+  uses: awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
