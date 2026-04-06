@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'test/*.test.js'",
+    "test:unit": "mocha 'test/transactionService.test.js'",
+    "test:integration": "mocha 'test/api.test.js'"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,12 @@
     "express": "^4.17.1",
     "mysql2": "latest",
     "node-fetch": "^2.6.1",
-    "moment" : "latest"
+    "moment" : "latest",
+    "mocha": "latest",
+    "chai" : "latest",
+    "chai-http" : "latest",
+    "sinon" : "latest",
+    "chai-as-promised": "latest",
+    "newrelic": "latest"
   }
 }
