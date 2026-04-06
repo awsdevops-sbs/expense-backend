@@ -1,5 +1,8 @@
 // File: test/unit/transactionService.test.js
 const chai = require('chai');
+const chaiHttp = require("chai-http");
+
+chai.use(chaiHttp);
 const expect = chai.expect;
 const sinon = require('sinon');
 const mysql = require('mysql2/promise');
