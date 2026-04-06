@@ -19,9 +19,7 @@
     "node-fetch": "^2.6.1",
     "moment" : "latest",
     "mocha": "latest",
-    "chai" : "latest",
-    "chai-http" : "latest",
-    "sinon" : "latest",
+     "sinon" : "latest",
     "chai-as-promised": "latest",
     "newrelic": "latest"
   }
