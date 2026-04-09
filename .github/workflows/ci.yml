@@ -4,3 +4,7 @@ jobs:
   On_workflow_call:
     uses: awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
 
+    with:
+      project_name: expense-backend
+      secrets: inherit
+
