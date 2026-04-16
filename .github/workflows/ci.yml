@@ -10,7 +10,6 @@ jobs:
     with:
       project_name: expense-backend
       npm_install: true
-
     secrets: inherit
 
 
