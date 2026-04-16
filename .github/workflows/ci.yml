@@ -1,11 +1,14 @@
 name: Continous integration
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   On_workflow_call:
     uses: awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project_name: expense-backend
-      npm_install: false
+      npm_install: true
       secrets: inherit
 
 
