@@ -1,4 +1,4 @@
-name: Continous integration
+name: Continous intgration -reusable
 on:
   push:
     branches:
