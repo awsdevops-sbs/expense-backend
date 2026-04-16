@@ -5,7 +5,7 @@ jobs:
     uses: awsdevops-sbs/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project_name: expense-backend
-      npm_install: true
+      npm_install: false
       secrets: inherit
 
 
